@@ -1,57 +1,131 @@
 /*#region RegionName*/
 /*#endregion RegionName*/
 
-.foot{
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgb(46 47 66 / 40%);
+  --grey: rgb(46 47 66 / 70%);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --letter-spacing-m: 2%;
+  --letter-spacing-l: 4%;
 
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color:
-    list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: var(--white);
+  line-height: 150%;
+  letter-spacing: var(--letter-spacing-m);
+  color: var(--slate);
 
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  letter-spacing: var(--letter-spacing-l);
+    
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  ;
 }
 
 /*#region header*/
-.logo{
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  color: var(--iris)
+     
 
 }
-.logo-dark{
-
+.logo-dark {
+  color: var(--navy-blue);
 }
-.logo-light{
-
-}
-.header-menu{
-
-}
-
-.header-item{
-
-}
-
-.header-link{
+.logo-light {
+  color: var(--cloud)
 
 }
 
-.header-contact{
-
+.header-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-link:hover {
+  color: var(--ocean);
 }
 
-.header-contact-item{
-
+.header-contact-item:hover,
+.header-contact-item:active {
+  color: var(--ocean);
 }
 /*#endregion header*/
 
 /*#region hero*/
 
-.hero{
-
+.hero {
+  background-color: var(--navy-blue);
 }
 
-.hero-title{
+.hero-title {
+  font-size: 56px;
+  line-height: 107%;
+  color: var(--white);
+}
 
+button {
+  cursor: pointer;
+  background-color: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: var(--letter-spacing-l);
+}
+
+button:hover {
+    background-color: var(--ocean);
 }
 
 /*#endregion hero*/
+
+/*#region team*/
+.team{
+  background-color: var(--cloud);
+}
+
+.colleague {
+    text-align: center;
+}
+/*#endregion team*/
+
+/*#region footer*/
+footer {
+  background-color: var(--navy-blue);
+  color: var(--cloud);
+}
+/*#endregion footer*/
