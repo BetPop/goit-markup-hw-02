@@ -27,18 +27,18 @@
         >
         <ul class="header-menu">
           <li class="header-item">
-            <a class="header-link" href="#">Studio</a>
+            <a class="header-link" href="./index.html">Studio</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="#portfolio">Portfolio</a>
+            <a class="header-link" href="">Portfolio</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="#">Contacts</a>
+            <a class="header-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <address>
+      <address class="contact">
         <ul class="header-contact">
           <li class="header-contact-item">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -54,7 +54,7 @@
       <!-- #region hero -->
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="button-primary" type="button">Order Service</button>
       </section>
       <!-- #endregion -->
 
@@ -64,28 +64,28 @@
         <ul>
           <li>
             <h3 class="about-subtitle">Strategy</h3>
-            <p>
+            <p class="about-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
             <h3 class="about-subtitle">Punctuality</h3>
-            <p>
+            <p class="about-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
             <h3 class="about-subtitle">Diligence</h3>
-            <p>
+            <p class="about-description">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
             <h3 class="about-subtitle">Technologies</h3>
-            <p>
+            <p class="about-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -106,7 +106,7 @@
               height="260"
             />
             <h3 class="team-member-subtitle">Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="colleague-description">Product Designer</p>
           </li>
           <li class="colleague">
             <img
@@ -116,7 +116,7 @@
               height="260"
             />
             <h3 class="team-member-subtitle">Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="colleague-description">Frontend Developer</p>
           </li>
           <li class="colleague">
             <img
@@ -125,8 +125,8 @@
               width="264"
               height="260"
             />
-            <h3 class="colleague">Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-member-subtitle">Camila Garcia</h3>
+            <p class="colleague-description">Marketing</p>
           </li>
           <li class="colleague">
             <img
@@ -136,7 +136,7 @@
               height="260"
             />
             <h3 class="team-member-subtitle">Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="colleague-description">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -145,35 +145,65 @@
       <!-- #region portfolio -->
 
       <section class="portfolio" id="portfolio">
-        <h2>Our Portfolio</h2>
+        <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-cases">
           <li class="case">
-            <img src="./images/case-1.jpg" alt="" width="360" height="300" />
+            <img
+              src="./images/case-1.jpg"
+              alt="App UI"
+              width="360"
+              height="300"
+            />
             <h3 class="case-title">Banking App</h3>
             <p class="case-description">App</p>
           </li>
           <li class="case">
-            <img src="./images/case-2.jpg" alt="" width="360" height="300" />
+            <img
+              src="./images/case-2.jpg"
+              alt="QR Code Reader"
+              width="360"
+              height="300"
+            />
             <h3 class="case-title">Cashless Payment</h3>
             <p class="case-description">Marketing</p>
           </li>
           <li class="case">
-            <img src="./images/case-3.jpg" alt="" width="360" height="" />
+            <img
+              src="./images/case-3.jpg"
+              alt="App Design Mockup"
+              width="360"
+              height="300"
+            />
             <h3 class="case-title">Meditation App</h3>
             <p class="case-description">App</p>
           </li>
           <li class="case">
-            <img src="./images/case-4.jpg" alt="" width="360" height="300" />
+            <img
+              src="./images/case-4.jpg"
+              alt="Phone in a car"
+              width="360"
+              height="300"
+            />
             <h3 class="case-title">Taxi Service</h3>
             <p class="case-description">Marketing</p>
           </li>
           <li class="case">
-            <img src="./images/case-5.jpg" alt="" width="360" height="300" />
+            <img
+              src="./images/case-5.jpg"
+              alt="Cosmic Illustration on a Mobile Screen"
+              width="360"
+              height="300"
+            />
             <h3 class="case-title">Screen Illustrations</h3>
             <p class="case-description">Design</p>
           </li>
           <li class="case">
-            <img src="./images/case-6.jpg" alt="" width="360" height="300" />
+            <img
+              src="./images/case-6.jpg"
+              alt="Smiling woman with headphones"
+              width="360"
+              height="300"
+            />
             <h3 class="case-title">Online Courses</h3>
             <p class="case-description">Marketing</p>
           </li>
@@ -182,7 +212,7 @@
       <!-- #endregion -->
     </main>
 
-    <footer>
+    <footer class="footer-minimal">
       <a class="logo" href="./index.html"
         >Web<span class="logo-light">Studio</span></a
       >
