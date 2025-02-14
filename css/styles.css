@@ -39,6 +39,7 @@ a {
   text-decoration: none;
   color: currentColor;
   letter-spacing: var(--letter-spacing-l);
+  letter-spacing: 0.02em;
     
 }
 
@@ -101,6 +102,10 @@ h3 {
 .header-contact-item:hover,
 .header-contact-item:active,
 .header-contact-item:focus {
+  color: var(--ocean);
+}
+
+.contact-line:focus {
   color: var(--ocean);
 }
 
